@@ -54,7 +54,7 @@ extend the `@Property()` decorator, so you can also use its parameters there.
 | `comment` | `string` | yes | Specify comment of column for [Schema Generator](schema-generator.md).. **(SQL only)** |
 | `version` | `boolean` | yes | Set to true to enable [Optimistic Locking] via version field (transactions.md#optimistic-locking). **(SQL only)** |
 | `concurrencyCheck` | `boolean` | yes | Set to true to enable [Optimistic Locking] via concurrency fields (transactions.md#concurrency-checks).|
-| `customOrder` | `string[] | number[] | boolean[]` | yes | Specify a custom order for the column. **(SQL only)** |
+| `customOrder` | `string[] &#124; number[] &#124; boolean[]` | yes | Specify a custom order for the column. **(SQL only)** |
 
 > You can use property initializers as usual.
 
